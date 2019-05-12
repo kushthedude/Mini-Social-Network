@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Hello , {{user.Username}} !</h1>
+{% for post in posts %}
+<div>
+	<p>
+		<strong>{{post.author.Username}}</strong> says : {{post.body}}
+	</p>
+</div>
+{% endfor %}
+{% endblock %}
