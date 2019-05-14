@@ -1,2 +1,2 @@
 # Mini-Social-Network
-A Flask Bases Social Networking Platform
+A Flask Based Social Networking Platform
